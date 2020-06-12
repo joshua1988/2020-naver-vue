@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div id="app">
+    <div>
+      <h1>데이터 바인딩</h1>
+      <p>{{ message + '!!' }}</p>
+      <!-- <p>{{ reversedMessage }}</p> -->
+      <p>{{ extraMessage }}</p>
+    </div>
+    <div>
+      <h1>디렉티브</h1>
+      <p v-if="show">반갑습니다</p>
+      <input type="text" v-model="inputText">
+      <ul>
+        <li v-for="item in items">
+          {{ item }}
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script>
+    new Vue({
+      el: '#app',
+      data: {
+        message: 'Hello',
+        show: true,
+        inputText: '',
+        items: ['apple', 'naver', 'google']
+      },
+      computed: {
+        extraMessage: function() {
+          // return 'Hello!!'
+          return this.message + '!!'
+        }
+      }
+    })
+  </script>
+</body>
+</html>

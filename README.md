@@ -53,6 +53,8 @@
 - [Vue.js in MVVM Pattern](https://v1.vuejs.org/guide/overview.html#Reactive-Data-Binding)
 - [Reactivity in Depth - Vue.js Doc](https://vuejs.org/v2/guide/reactivity.html)
 - [Object.defineProperty - MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperty)
+- [Facebook Hackerway 유투브 영상](https://www.youtube.com/watch?v=nYkdrAPrdcw)
+- [functional component](https://vuejs.org/v2/guide/render-function.html#Functional-Components)
 
 ## License & Copyright
 

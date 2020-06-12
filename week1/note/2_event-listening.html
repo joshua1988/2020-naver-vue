@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div id="app">
+    <button v-on:click="sayHi">click me</button>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script>
+    var button = document.querySelector('button');
+    button.addEventListener('click', function() {
+      console.log('hi');
+    })
+
+    new Vue({
+      el: '#app',
+      methods: {
+        sayHi: function() {
+          console.log('hi');
+        }
+      }
+    })
+  </script>
+</body>
+</html>

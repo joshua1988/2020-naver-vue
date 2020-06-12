@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div id="app">
+    <!-- <app-header v-bind:하위 컴포넌트의 프롭스 속성 이름="상위 컴포넌트의 데이터 이름"></app-header> -->
+    <app-header v-bind:title="sayHi"></app-header>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script>
+    new Vue({
+      el: '#app',
+      data: {
+        str: '속성'
+      },
+      methods: {
+        sayHi: function() {
+          console.log('hi');
+        }
+      },
+      components: {
+        'app-header': {
+          template: '<h1>프롭스 {{ title }}</h1>',
+          props: ['title']
+        }
+      }
+    })
+  </script>
+</body>
+</html>

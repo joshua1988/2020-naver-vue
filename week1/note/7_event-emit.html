@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div id="app">
+    <!-- <app-contents v-on:하위 컴포넌트에서 발생한 이벤트 이름="상위 컴포넌트의 메서드 이름"></app-contents> -->
+    <!-- <app-header></app-header> -->
+    <app-contents v-on:pass="receive"></app-contents>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script>
+    new Vue({
+      el: '#app',
+      methods: {
+        receive: function() {
+          console.log('수신');
+        }
+      },
+      components: {
+        'app-contents': {
+          template: '<button v-on:click="sendEvent">send</button>',
+          methods: {
+            sendEvent: function() {
+              console.log('clicked');
+              this.$emit('pass');
+            }
+          }
+        }
+        // 'app-header': {
+        //   template: '<h1>{{ title }}</h1>',
+        //   props: []
+        // }
+      }
+    })
+  </script>
+</body>
+</html>

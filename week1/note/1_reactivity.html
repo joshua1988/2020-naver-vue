@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div id="app"></div>
+
+  <script>
+    var div = document.querySelector('#app');
+    var str = 'Hello World';
+    div.innerText = str;
+
+    str = 'Hello Vue';
+    div.innerText = str;
+
+    var obj = {};
+    // Object.defineProperty('대상 객체', '객체 속성 이름', '동작');
+    Object.defineProperty(obj, 'str', {
+      // obj.str 했을 때 돌아가는 코드
+      get: function() {
+        console.log('접근');
+      },
+      // obj.str = 'aaa'; 했을 때 돌아가는 코드
+      set: function(newValue) {
+        console.log('할당', newValue);
+        div.innerText = newValue;
+      }
+    });
+  </script>
+</body>
+</html>

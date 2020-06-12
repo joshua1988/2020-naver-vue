@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div id="app">
+    <header>
+      <h1>컴포넌트</h1>
+    </header>
+    <div>
+      <app-header></app-header>
+      <!-- <main></main>
+      <article></article>
+      <section></section>
+      <blockquote></blockquote> -->
+      
+      <!-- <AppHeader></AppHeader> -->
+      <!-- <vue-date-picker></vue-date-picker> -->
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="https://date-picker.js"></script>
+  <script>
+    // Vue.component('컴포넌트 이름', 컴포넌트 내용);
+    Vue.component('app-contents', {
+      template: '<section>글로벌(전역) 컴포넌트</section>',
+      // functional: true
+    });
+
+    new Vue({
+      el: '#app',
+      components: {
+        // '컴포넌트 이름': 컴포넌트 내용
+        'app-header': {
+          template: '<h1>로컬(지역) 컴포넌트</h1>',
+          // components: {},
+          // data: {}
+        }
+      }
+    })
+  </script>
+</body>
+</html>

@@ -15,12 +15,18 @@
     <script>
       new Vue({
         el: '#app',
+        data: {
+          users: []
+        },
         methods: {
           getData: function() { 
             axios.get('https://jsonplaceholder.typicode.com/users/')
               .then(function(response) {
-                console.log(response);
+                console.log(response.data);
                 // 할일 #1 - 전달 받은 10개의 사용자 정보를 화면에 출력
+              })
+              .catch(function(error) {
+                console.log(error);
               });
           }
         }

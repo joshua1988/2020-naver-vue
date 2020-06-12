@@ -1,0 +1,8 @@
+쉬는 시간 5시 25분까지
+- [실습] week1/exercise/7_axios 해보세요..!
+- [실습] week1/exercise/8_template 해보세요..!
+- [실습] week1/note/7_event-emit 에서 아래 실습 해보세요..!
+  1. 'app-header' 컴포넌트 등록
+  2. 'app-contents' 컴포넌트에서 이벤트 발생시켜서 
+     'app-header' 컴포넌트의 값을 변경해보세요 :)
+
