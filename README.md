@@ -48,6 +48,12 @@
 
 [2019년 Tech Share 자료 보기](https://github.com/joshua1988/naver-vue)
 
+## 1주차 자료 안내
+
+- [Vue.js in MVVM Pattern](https://v1.vuejs.org/guide/overview.html#Reactive-Data-Binding)
+- [Reactivity in Depth - Vue.js Doc](https://vuejs.org/v2/guide/reactivity.html)
+- [Object.defineProperty - MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperty)
+
 ## License & Copyright
 
 **Copyright © 2020 Captain Pangyo**
