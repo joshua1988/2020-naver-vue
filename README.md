@@ -54,7 +54,14 @@
 - [Reactivity in Depth - Vue.js Doc](https://vuejs.org/v2/guide/reactivity.html)
 - [Object.defineProperty - MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperty)
 - [Facebook Hackerway 유투브 영상](https://www.youtube.com/watch?v=nYkdrAPrdcw)
-- [functional component](https://vuejs.org/v2/guide/render-function.html#Functional-Components)
+- [Vue.js Function Component](https://vuejs.org/v2/guide/render-function.html#Functional-Components)
+- [Vue.js 공식 스타일 가이드](https://vuejs.org/v2/style-guide/)
+- [뷰 인스턴스 라이프 사이클 도식](https://vuejs.org/v2/guide/instance.html#Lifecycle-Diagram)
+- [Presentational and Container Component(원문)](https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0)
+- [Presentational and Container Component(번역)](https://blueshw.github.io/2017/06/26/presentaional-component-container-component/)
+- [자바스크립트 비동기 처리와 콜백 함수 글](https://joshua1988.github.io/web-development/javascript/javascript-asynchronous-operation/)
+- [자바스크립트 Promise 이해하기 글](https://joshua1988.github.io/web-development/javascript/promise-for-beginners/)
+- [자바스크립트 동작 원리 글](https://joshua1988.github.io/web-development/translation/javascript/how-js-works-inside-engine/)
 
 ## License & Copyright
 

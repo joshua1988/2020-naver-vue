@@ -14,9 +14,9 @@ export default {
   },
   methods: {
     addTodo: function() {
-      console.log("clicked", this.inputText);
+      // console.log("clicked", this.inputText);
       var value = this.inputText;
-      localStorage.setItem(value, value);
+      this.$emit("add", value);
       this.initForm();
     },
     initForm: function() {

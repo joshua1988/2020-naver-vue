@@ -21,3 +21,4 @@
   - [Node.js 버전 10.16으로 변경(NVM 및 기타 버전 매니저 이용)](https://github.com/joshua1988/vue-til-server#nvm-%EC%84%A4%EC%B9%98-%EB%B0%8F-%EB%B2%84%EC%A0%84-%EB%B3%80%EA%B2%BD-%EB%B0%A9%EB%B2%95)
   - [MongoDB Cloud 가입](https://github.com/joshua1988/vue-til-server#mongo-cloud-%EA%B0%80%EC%9E%85-%EC%A0%88%EC%B0%A8)
   - [API 서버 클론 및 실행](https://github.com/joshua1988/vue-til-server#%EC%84%9C%EB%B2%84-%EC%8B%A4%ED%96%89-%EC%A0%88%EC%B0%A8)
+- [Vue.js 개발 환경 설정 글](https://joshua1988.github.io/web-development/vuejs/boost-productivity/)
