@@ -1,0 +1,27 @@
+npm install
+
+node package manager
+npm install jquery
+npm uninstall jquery
+npm install jquery@3.2.1
+
+[뷰 애플리케이션 제작]
+1. 프로젝트 생성
+
+```
+vue create todo-app
+```
+
+2. 프로젝트 실행 및 개발 (웹팩 데브 서버)
+
+```
+npm run serve
+```
+
+3. 서버 배포 (웹팩)
+
+```
+npm run build
+```
+
+변환하는 동작(빌드 / 변환 / 번들링)
