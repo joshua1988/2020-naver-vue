@@ -1,0 +1,13 @@
+- API 설정 공통화 w/ 환경 변수 파일
+  - 개발
+  - 테스트(QA)
+  - 배포 
+- SPA 배포시 웹 서버에서 해야할 설정
+- vuetify
+- API 모듈화
+
+
+x eslint
+x prettier
+x vuex
+x vue router
